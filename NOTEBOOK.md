@@ -1,5 +1,3 @@
-# AI Team Intern Assignment — Experiment Log
-
 ## Part A — Baseline
 
 ### A2 Baseline: Original fertility.py
@@ -493,17 +491,3 @@ The primary production metric should be **input tokens per request**, segmented 
 Output tokens per request should be tracked separately.
 
 This directly measures the tokenized workload entering the serving system and provides a production quantity that can be connected to context usage and token-based serving cost.
-
-
-### Current completion
-
-With this version, **Part A is complete**:
-
-- A1 ✅
-- A2 baseline ✅
-- A2 experiments ✅
-- A3 comparison ✅
-- A4 memo ✅
-
-Next we should start **Part B1: KV-cache calculation** from `model_spec.md`.
-
